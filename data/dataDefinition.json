@@ -1,0 +1,16 @@
+﻿{
+      "version": "1.0.0",
+      "description": "", 
+      "event": { "data": [["events"], ["items"], ["Items"], ["data", "items"], [],["results"],["value","items"]] },
+      "groupTitle": { "typeOf": "string", "data": [["Title"]] },
+      "groupSubitle": { "typeOf": "string", "data": [["subtitle"]] },
+      "groupImage": { "typeOf": "string", "data": [["image"]] },
+      "title": { "typeOf": "string", "data": [["Title"], ["user", "name"], ["from_user"]] },
+      "subtitle": { "typeOf": "string", "data": [["subtitle"], ["user", "screen_name"], ["from_user_name"]] },
+      "lat": { "typeOf": "string", "data": [["Location", "Lat"], ["place", "bounding_box", "coodinates", 0, 0]] },
+      "lon": { "typeOf": "string", "data": [["Location", "Lng"], ["place", "bounding_box", "coodinates", 0, 1]] },
+      "address": { "typeOf": "string", "data": [["location"], ["Location", "Address"], ["place", "name"]] },
+      "url": { "typeOf": "string", "data": [["event_url"], ["alternateLink"], ["Url"], ["Link"]] },
+      "description": { "typeOf": "string", "data": [["details"], ["event_url"], ["url"], ["text"]] },
+      "date": { "typeOf": "string", "data": [["started_at"], ["StartDate"], ["when", 0, "start"], ["updated_at"], ["updated"], ["created_at"]] }
+    }

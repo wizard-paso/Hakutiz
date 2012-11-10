@@ -1,7 +1,7 @@
 ﻿{
-      "version": "1.0.0.4",
+      "version": "1.0.0.5",
       "message": "対応API: ATND,Azusaar(こくちーず,partake,zusaar),Googleカレンダー,Twitter,eventcast", 
-      "event": { "data": [["events",0,"event"],["events"], ["items"], ["Items"], ["data", "items"], [],["results"],["value","items"]] },
+      "event": { "data": [["event"],["events",0,"event"],["events"], ["items"], ["Items"], ["data", "items"], [],["results"],["value","items"]] },
       "groupTitle": { "typeOf": "string", "data": [["Title"]] },
       "groupSubitle": { "typeOf": "string", "data": [["subtitle"]] },
       "groupImage": { "typeOf": "string", "data": [["image"]] },

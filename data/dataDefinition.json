@@ -1,5 +1,5 @@
 ﻿{
-      "version": "1.0.0.7",
+      "version": "1.0.0.8",
       "message": "対応API: ATND,Azusaar(こくちーず,partake,zusaar),Googleカレンダー,Twitter,eventcast", 
       "event": { "data": [["event"],["events",0,"event"],["events"], ["items"], ["Items"], ["data", "items"], [],["results"],["value","items"]] },
       "groupTitle": { "typeOf": "string", "data": [["Title"]] },
@@ -11,6 +11,6 @@
       "lon": { "typeOf": "string", "data": [["Location", "Lng"], ["place", "bounding_box", "coodinates", 0, 1],["latLng", "lng"]] },
       "address": { "typeOf": "string", "data": [["location"], ["Location", "Address"], ["place", "name"]] },
       "url": { "typeOf": "string", "data": [["event_url"], ["alternateLink"], ["Url"], ["Link"]] },
-      "description": { "typeOf": "string", "data": [["details"], ["event_url"], ["url"], ["text"]] },
+      "description": { "typeOf": "string", "data": [["details"], ["event_url"], ["url"], ["text"],["detail"]] },
       "date": { "typeOf": "string", "data": [["started_at"], ["StartDate"], ["when", 0, "start"], ["updated_at"], ["updated"], ["created_at"], ["date",0,"from"]] }
     }

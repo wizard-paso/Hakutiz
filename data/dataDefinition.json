@@ -12,5 +12,5 @@
       "address": { "typeOf": "string", "data": [["location"], ["Location", "Address"], ["place", "name"]] },
       "url": { "typeOf": "string", "data": [["event_url"], ["alternateLink"], ["Url"], ["Link"]] },
       "description": { "typeOf": "string", "data": [["details"], ["event_url"], ["url"], ["text"]] },
-      "date": { "typeOf": "string", "data": [["started_at"], ["StartDate"], ["when", 0, "start"], ["updated_at"], ["updated"], ["created_at"]] }
+      "date": { "typeOf": "string", "data": [["started_at"], ["StartDate"], ["when", 0, "start"], ["updated_at"], ["updated"], ["created_at"], ["date",0,"from"]] }
     }
